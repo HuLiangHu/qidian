@@ -17,10 +17,10 @@ SPIDER_MODULES = ['crawling.spiders']
 NEWSPIDER_MODULE = 'crawling.spiders'
 
 
-MYSQL_HOST = os.environ['MYSQL_HOST'] if 'MYSQL_HOST' in os.environ else  'MySQL.crotondata.cn'
+MYSQL_HOST = os.environ['MYSQL_HOST'] if 'MYSQL_HOST' in os.environ else  ''
 MYSQL_DBNAME = os.environ['MYSQL_DBNAME'] if 'MYSQL_DBNAME' in os.environ else 'newmedia_db'
-MYSQL_USER = os.environ['MYSQL_USER'] if 'MYSQL_USER' in os.environ else 'huliang'
-MYSQL_PASSWD = os.environ['MYSQL_PASSWD'] if 'MYSQL_PASSWD' in os.environ else 'CIf2kdnvY9E57vW1'
+MYSQL_USER = os.environ['MYSQL_USER'] if 'MYSQL_USER' in os.environ else ''
+MYSQL_PASSWD = os.environ['MYSQL_PASSWD'] if 'MYSQL_PASSWD' in os.environ else ''
 MYSQL_PORT = os.environ['MYSQL_PORT'] if 'MYSQL_PORT' in os.environ else  3306
 
 
@@ -57,7 +57,7 @@ headers = {
           'Accept-Encoding':'gzip, deflate, sdch, br',
           'Accept-Language':'zh-CN,zh;q=0.8',
           'Connection':'keep-alive',
-          'Referer':'https://movie.douban.com/tv/',
+          'Referer':'https://movie.moviesgrade.com/tv/',
           'User-Agent':ua
           }
 
