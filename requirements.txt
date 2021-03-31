@@ -8,7 +8,7 @@ funcsigs==1.0.2
 future==0.16.0 # Updated from 0.15.2
 idna==2.5 # Updated from 2.1
 ipaddress==1.0.18 # Updated from 1.0.16
-lxml==3.7.3 # Updated from 3.6.4
+lxml==4.6.3 # Updated from 3.6.4
 mock==2.0.0
 nose==1.3.7
 parsel==1.1.0 # Updated from 1.0.3
